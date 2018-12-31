@@ -1,14 +1,14 @@
 <template>
-  <div class="container content">
-    <h1 class="title is-1">Cabells</h1>
-    <h3 class="subtitle">Designer, Project Manager, UI/UX, Content Strategist/Copywriter, User Researcher; UI/UX Design, Product Design, Print Design, Data Vis, Marketing, Copywriting</h3>
-    <section class="content">
+  <section class="container content">
+    <h1 class="title is-2 is-spaced">Cabells</h1>
+    <p class="subtitle is-4"><strong>Roles:</strong> Designer, Project Manager, Content Strategist/Copywriter, User Researcher, Data Specialist</p>
+    <div class="content">
       <p>
           This is an explanation of my roles at Cabells. It contains a an overview of what I did there and the areas I covered.
       </p>
-    </section>
+    </div>
     <CabellsProject/>
-  </div>
+  </section>
 </template>
 
 <script>
