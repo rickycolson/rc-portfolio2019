@@ -7,7 +7,7 @@
                         <h2 class="title is-3 ">{{ project.title }}</h2>
                         <p class="subtitle is-5">{{ project.description }}</p>
                         <div class="tags are-dark is-centered">
-                            <span v-for="tag in project.tags"  class="tag is-info is-medium">{{ tag }}</span>
+                            <span v-for="tag in project.tags"  class="tag is-info is-small">{{ tag }}</span>
                         </div>
                         <ul class="bullet-list">
                             <li v-for="goal in project.goals">{{ goal }}</li>
