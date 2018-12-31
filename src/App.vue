@@ -2,7 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/humble">My Humble Existence</router-link> |
+      <a href="https://zooettes.com" target="_blank" rel="noopener">Zooettes</a> |
+      <a href="https://welcometoautumn.com" target="_blank" rel="noopener">Welcome to Autumn</a> |
+      <router-link to="/cabells">Cabells</router-link>
     </div>
     <router-view/>
   </div>
