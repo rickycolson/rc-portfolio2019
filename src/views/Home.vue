@@ -1,134 +1,67 @@
 <template>
-  <div class="home">
+  <div class="home hero is-dark is-fullheight">
 
-    <section class="hero is-dark is-bold is-fullheight-with-navbar">
-    <!-- Hero head: will stick at the top -->
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
-              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-            </a>
-            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroA" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item is-active">
-                Home
-              </a>
-              <a class="navbar-item">
-                About
-              </a>
-              <a class="navbar-item">
-                Portfolio
-              </a>
-              <span class="navbar-item">
-                <a class="button is-primary is-inverted">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Download</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+
     
+    <!--testing css grid-->
+    <div class="grid">
 
-    <!-- Hero content: will be in the middle -->
-    <div class="columns container is-fluid">
-      <div class="column is-one-quarter">
-        <figure class="image is-128x128">
-          <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-        </figure>
-        <div class="content has-text-left" style="padding-top: 2em">
-          <h1 class="title is-2">
-            Ricky Colson III
-          </h1>
-          <h2 class="subtitle is-5 is-uppercase has-text-weight-light">
-            Designer & Visual Artist
-          </h2>
-          <p style="margin-right: 3rem">
-            Versatile artist asfsdf sdfsdf sd fsdf sdfsdfds fdsf sdfsdf dsf dsfdf dsfdsf 
-          </p>
-        </div>      
-      </div>
+      <aside class="sidebar-left">
+            <figure class="image is-128x128">
+              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+            </figure>
+            <h1 class="title is-2">
+              Ricky Colson III
+            </h1>
+            <h2 class="subtitle is-5 is-uppercase has-text-weight-light">
+              Designer & Visual Artist
+            </h2>
+            <p>
+              Versatile artist asfsdf sdfsdf sd fsdf sdfsdfds fdsf sdfsdf dsf dsfdf dsfdsf 
+            </p>
+      </aside>
 
-  <!--card ui with grid-->
-  <div class="columns">
-
-    <div class="column">
-      <figure class="column">
-        <div class="home-card image">
-          <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
-
+      <article class="module">
+        <div class="item">
+          <figure class="column">
+            <div class="home-card image">
+              <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
+            </div>
+            <h2 class="title is-4">My Humble Existence</h2>
+            <h3 class="subtitle is-6">Drawings & Paintings</h3>
+          </figure>
         </div>
-          <h2 class="title is-4">My Humble Existence</h2>
-          <h3 class="subtitle is-6">Drawings & Paintings</h3>
-      </figure>
+        <div class="item">
+          <figure class="column">
+            <div class="home-card image">
+              <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
+            </div>
+            <h2 class="title is-4">My Humble Existence</h2>
+            <h3 class="subtitle is-6">Drawings & Paintings</h3>
+          </figure>
+        </div>
+        <div class="item">
+          <figure class="column">
+            <div class="home-card image">
+              <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
+            </div>
+            <h2 class="title is-4">My Humble Existence</h2>
+            <h3 class="subtitle is-6">Drawings & Paintings</h3>
+          </figure>
+        </div>
+        <div class="item">
+          <figure class="column">
+            <div class="home-card image">
+              <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
+            </div>
+            <h2 class="title is-4">My Humble Existence</h2>
+            <h3 class="subtitle is-6">Drawings & Paintings</h3>
+          </figure>
+        </div>
+      </article>
+
     </div>
 
-    <div class="column">
-      <figure class="column">
-        <div class="home-card image">
-          <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
-
-        </div>
-          <h2 class="title is-4">Zooettes</h2>
-          <h3 class="subtitle is-6">Graphic Design</h3>
-      </figure>
-    </div>
-
-    <div class="column">
-      <figure class="column">
-        <div class="home-card image">
-          <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
-
-        </div>
-          <h2 class="title is-4">Welcome to Autumn</h2>
-          <h3 class="subtitle is-6">3D, Illustration, World Building</h3>
-      </figure>
-    </div>
-
-    <div class="column">
-      <figure class="column">
-        <div class="home-card image">
-          <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
-
-        </div>
-          <h2 class="title is-4">Cabells</h2>
-          <h3 class="subtitle is-6">UI/UX, Branding, Data Vis</h3>
-      </figure>
-    </div>
-
-
-
-
-
-
-  </div> 
-
-  </div>   
-
-
-
-   <!-- card ui
-   <div class="home-card">
-     <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
-     <div class="details">
-      <h2>Title Goes Here<br><span>Subtitle Goes Here</span></h2>
-      <div class="info">
-        <p>Lorum ipsum sfsdf sdf sdf    sdfsdfsdfs sdf sdf sdf   s dfsdf sdf sdf sdfs </p>
-      </div>
-      </div>
-   </div> -->
 
 		<!-- Footer -->
 			<footer id="hero-foot">
@@ -139,7 +72,7 @@
 				</div>
 			</footer>
 
-    </section>
+
 
   </div>
 </template>
@@ -206,6 +139,76 @@ export default {
   }
 
 
+
+/* grid */
+.grid {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 2em;
+  padding: 1em 4em;
+  background: rgb(41, 41, 41);
+  border: 1px solid red;
+}
+
+.grid * {
+  border: 1px solid rgb(139, 0, 0);
+}
+
+@media all and (max-width: 1520px) {
+  .grid {
+    padding: 1em 1.5em;
+  }
+  aside,
+  article {
+    grid-column: 1 / 4;
+  }
+  .module {
+    display: block;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .grid {
+    padding: 1em 0em;
+  }
+  aside {
+    padding: 0em 1.5em;
+  }
+  .module {
+    display: block;
+    background: green;
+    flex-wrap: wrap;
+  }
+  .item {
+    flex: 1 1 50%; /* default 0 */
+  }
+}
+
+@media all and (max-width: 600px) {
+  .item {
+    flex: 1 1 100%; /* default 0 */
+  }
+}
+
+.module {
+  /* Demo-Specific Styles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+/* If Grid is supported, remove the margin we set for the fallback */
+@supports (display: grid) {
+  .module {
+    margin: 0;
+  }
+}
 </style>
 
 
