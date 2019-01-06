@@ -7,9 +7,6 @@
     <div class="grid">
 
       <aside class="sidebar-left">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-            </figure>
             <h1 class="title is-2">
               Ricky Colson III
             </h1>
@@ -17,7 +14,7 @@
               Designer & Visual Artist
             </h2>
             <p>
-              Versatile artist asfsdf sdfsdf sd fsdf sdfsdfds fdsf sdfsdf dsf dsfdf dsfdsf 
+              Versatile artist, product designer, generalist, Fort Collins Colorado, critical eye, tone/story, creative direction, asfsdf sdfsdf sd fsdf sdfsdfds fdsf sdfsdf dsf dsfdf dsfdsf 
             </p>
       </aside>
 
@@ -29,6 +26,9 @@
             </div>
             <h2 class="title is-4">My Humble Existence</h2>
             <h3 class="subtitle is-6">Drawings & Paintings</h3>
+            <span>personal</span>
+            <p>This is a summary of the project and relevant skills</p>
+            <a href="#">View portfolio -></a>           
           </figure>
         </div>
         <div class="item">
@@ -36,8 +36,11 @@
             <div class="home-card image">
               <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
             </div>
-            <h2 class="title is-4">My Humble Existence</h2>
+            <h2 class="title is-4">Zooettes</h2>
             <h3 class="subtitle is-6">Drawings & Paintings</h3>
+            <span>personal</span>
+            <p>This is a summary of the project and relevant skills</p>
+            <a href="#">View site -></a>       
           </figure>
         </div>
         <div class="item">
@@ -45,8 +48,11 @@
             <div class="home-card image">
               <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
             </div>
-            <h2 class="title is-4">My Humble Existence</h2>
+            <h2 class="title is-4">Welcome to Autumn</h2>
             <h3 class="subtitle is-6">Drawings & Paintings</h3>
+            <span>personal</span>
+            <p>This is a summary of the project and relevant skills</p>
+            <a href="#">View site -></a>       
           </figure>
         </div>
         <div class="item">
@@ -54,8 +60,11 @@
             <div class="home-card image">
               <div class="poster"><img src="https://bulma.io/images/placeholders/480x600.png" alt=""></div>
             </div>
-            <h2 class="title is-4">My Humble Existence</h2>
-            <h3 class="subtitle is-6">Drawings & Paintings</h3>
+            <h2 class="title is-4">Cabells</h2>
+            <h3 class="subtitle is-6">Branding, UI/UX, & Product Design</h3>
+            <span>team</span>
+            <p>This is a summary of the company and my various roles</p>
+            <a href="#">View case studies -></a>       
           </figure>
         </div>
       </article>

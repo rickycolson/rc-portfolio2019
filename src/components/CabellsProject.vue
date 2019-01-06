@@ -16,7 +16,7 @@
                     <div class="card-image center">
                         <img :src="project.img">
                     </div>
-                    <router-link :to="project.routeURL"><a class="button is-medium is-fullwidth">View project</a>
+                    <router-link :to="project.routeURL"><a class="button is-medium is-fullwidth">View details/more</a>
                     </router-link>
                 </div>
             </div>
